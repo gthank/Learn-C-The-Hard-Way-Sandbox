@@ -1,4 +1,4 @@
-CFLAGS=-Wall -g -pedantic
+CFLAGS=-Wall -g -pedantic -O2
 
 default: all
 

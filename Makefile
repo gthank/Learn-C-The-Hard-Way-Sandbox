@@ -8,6 +8,7 @@ clean:
 	rm -f ex4
 	rm -f ex5
 	rm -f ex6
+	rm -f ex7
 
 all:
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex1.c -o ex1
@@ -15,4 +16,5 @@ all:
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex4.c -o ex4
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex5.c -o ex5
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex6.c -o ex6
+	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex7.c -o ex7
 

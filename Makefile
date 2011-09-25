@@ -3,11 +3,11 @@ CFLAGS=-Wall -pedantic -g -std=c99
 default: all
 
 clean:
-	rm ex1
-	rm ex3
-	rm ex4
-	rm ex5
-	rm ex6
+	rm -f ex1
+	rm -f ex3
+	rm -f ex4
+	rm -f ex5
+	rm -f ex6
 
 all:
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex1.c -o ex1

@@ -3,12 +3,15 @@ CFLAGS=-Wall -pedantic -g -std=c99
 default: all
 
 clean:
+	# Get rid of the executables.
 	rm -f ex1
 	rm -f ex3
 	rm -f ex4
 	rm -f ex5
 	rm -f ex6
 	rm -f ex7
+	# Get rid of the debug symbols, too.
+	rm -rf *.dSYM
 
 all:
 	cc $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ex1.c -o ex1
